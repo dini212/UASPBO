@@ -1,13 +1,14 @@
 <?php
 
-class checkLength extends index
+require_once __DIR__ . "/wordInspiration.php";
+
+class checkLength extends wordInspiration
 {
-    public static function check($sum)
+
+    public function getCheck()
     {
-        if($wordInspiration.length() == 130) {
-            $sum = 3;
-        } else {
-            $sum = 0;
-        }
-    }    
+        if($this->total = strlen($this->word) == 130) {
+          return $this->sum = $this->total * 0.1 - 3;
+        } 
+    }   
 }
