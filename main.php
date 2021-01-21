@@ -4,7 +4,7 @@ require_once __DIR__ . "/totalSum.php";
 require_once __DIR__ . "/checkLength.php";
 require_once __DIR__ . "/quantity.php";
 
-$inspiration1 = new wordInspiration("my world is your w@rld");
+$inspiration1 = new wordInspiration("HALo 212+-#ada@@dimana.!");
 $text = new totalSum();
 
 $total = $text->addCounts($inspiration1);
