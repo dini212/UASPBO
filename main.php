@@ -4,10 +4,10 @@ require_once __DIR__ . "/totalSum.php";
 require_once __DIR__ . "/checkLength.php";
 require_once __DIR__ . "/quantity.php";
 
-$inspiration1 = new wordInspiration("HALo 212+-#ada@@dimana.!");
+$inspiration = new wordInspiration("HALo 212+-#ada@@dimana.!");
 $text = new totalSum();
 
-$total = $text->addCounts($inspiration1);
+$total = $text->addCounts($inspiration);
 $text->getTotalCost();
 
 echo "Harga kata inspirasi: ";
