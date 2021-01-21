@@ -7,7 +7,7 @@ class checkLength extends wordInspiration
 
     public function getCheck()
     {
-        if($this->total = strlen($this->word) == 130) {
+        if($this->total = strlen($this->word) == 22) {
           return $this->sum = $this->total * 0.1 - 3;
         } 
     }   
